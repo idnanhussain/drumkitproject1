@@ -1,5 +1,5 @@
 body{
-    background: url(images/background.jpg);
+    background: url(images/jazzback.jpeg);
     background-size: cover;
     font-size: 20px;
 }
@@ -11,11 +11,39 @@ body.html {
   }
 
 
-.sound-button {
+.key {
+  
+
+     border: .4rem solid rgba(0, 0, 0, 0.24);
+     border-radius: .5rem;
+     margin: 1rem;
+     font-size: 1.5rem;
+     padding: 1 5 ;
+     transition: all .07s ease;
+     width: 10rem;
+     text-align: center;
+     color: white;
+     background: rgba(58, 53, 53, 0.4);
+    
+    
+  }
+
+  .keys {
     display: flex;
-    flex: 1;
+    flex: auto;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-  }
+   }
 
+   kbd {
+    display: block;
+    font-size: 4rem;
+   }
+
+   .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+   }
